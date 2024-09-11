@@ -1,4 +1,4 @@
-<img width="1148" alt="image" src="https://github.com/user-attachments/assets/1de0151b-8aa1-4570-b49d-1ffb6c37e13b">
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/1de0151b-8aa1-4570-b49d-1ffb6c37e13b">
 
 # Guestwise Technical Assessment
 
