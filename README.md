@@ -26,8 +26,8 @@ Your task is to enhance this page to rectify these issues and ensure that the pa
     -   **10 Campaigns** per brand
     -   Each campaign will have:
         -   **Several hundred thousand** Impressions over 30 days
-        -   About **100,000 Interactions** over 30 days
-        -   About **10,000 Conversions** over 30 days
+        -   About **~27,000 Interactions** over 30 days
+        -   About **~2,700 Conversions** over 30 days
 -   The list view should include the following columns:
     -   **Campaign Name**
     -   **Brand Name**
