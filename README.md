@@ -55,7 +55,7 @@ Your task is to enhance this page to rectify these issues and ensure that the pa
 
 ### Steps
 
-1. **Clone the repository**:
+1. **Fork & Clone the repository**:
 
     ```bash
     git clone <repository_url>
