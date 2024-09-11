@@ -75,7 +75,7 @@ Your task is to enhance this page to rectify these issues and ensure that the pa
     cp .env.example .env
     ```
 
-4. **Update `.env**:
+4. **Update .env**:
    Set up the necessary environment variables such as **database connection** and **Laravel Sail settings**.
 
 5. **Start Laravel Sail**:
@@ -107,6 +107,9 @@ Your task is to enhance this page to rectify these issues and ensure that the pa
 
 9. **Access the application**:
    Once the Sail container is running, you should be able to access the application at `http://localhost`.
+
+   You should see something like:
+   <img width="1800" alt="image" src="https://github.com/user-attachments/assets/5c0cf223-2630-4992-a422-9ba666646cb6">
 
 ---
 
