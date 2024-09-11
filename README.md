@@ -140,4 +140,9 @@ Your task is to enhance this page to rectify these issues and ensure that the pa
     - Once you have completed the task, please commit your changes and push them to a forked repository and share the link with us.
     - We'll then arrange a follow-up call to discuss your solution and answer any questions you may have.
 
+## Good To Know
+
+-   The Sail install includes Redis, feel free to use it for caching or any other purpose.
+-   The database is seeded with a large volume of data, so you may need to optimise your queries and indexing strategies.
+
 Good luck, and happy coding!
