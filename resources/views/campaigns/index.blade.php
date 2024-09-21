@@ -36,37 +36,37 @@
             <thead>
                 <tr>
                     <th scope="col">
-                        <a href="{{ route('campaigns.index', ['sort' => 'name', 'order' => $order_by]) }}">
+                        <a href="{{ route('campaigns.index', request()->except('sort', 'order') + ['sort' => 'name', 'order' => 'asc']) }}">
                             Campaign Name
                         </a>
                         @include('partials.sort-icons', ['sort' => 'name', 'order' => $order_by])
                     </th>
                     <th scope="col">
-                        <a href="{{ route('campaigns.index', ['sort' => 'brand', 'order' => $order_by]) }}">
+                        <a href="{{ route('campaigns.index', request()->except('sort', 'order') + ['sort' => 'brand', 'order' => 'asc']) }}">
                             Brand Name
                         </a>
                         @include('partials.sort-icons', ['sort' => 'brand', 'order' => $order_by])
                     </th>
                     <th scope="col">
-                        <a href="{{ route('campaigns.index', ['sort' => 'impressions', 'order' => $order_by]) }}">
+                        <a href="{{ route('campaigns.index', request()->except('sort', 'order') + ['sort' => 'impressions', 'order' => 'asc']) }}">
                             Impressions
                         </a>
                         @include('partials.sort-icons', ['sort' => 'impressions', 'order' => $order_by])
                     </th>
                     <th scope="col">
-                        <a href="{{ route('campaigns.index', ['sort' => 'interactions', 'order' => $order_by]) }}">
+                        <a href="{{ route('campaigns.index', request()->except('sort', 'order') + ['sort' => 'interactions', 'order' => 'asc']) }}">
                             Interactions
                         </a>
                         @include('partials.sort-icons', ['sort' => 'interactions', 'order' => $order_by])
                     </th>
                     <th scope="col">
-                        <a href="{{ route('campaigns.index', ['sort' => 'conversions', 'order' => $order_by]) }}">
+                        <a href="{{ route('campaigns.index', request()->except('sort', 'order') + ['sort' => 'conversions', 'order' => 'asc']) }}">
                             Conversions
                         </a>
                         @include('partials.sort-icons', ['sort' => 'conversions', 'order' => $order_by])
                     </th>
                     <th scope="col">
-                        <a href="{{ route('campaigns.index', ['sort' => 'conversion_rate', 'order' => $order_by]) }}">
+                        <a href="{{ route('campaigns.index', request()->except('sort', 'order') + ['sort' => 'conversion_rate', 'order' => 'asc']) }}">
                             Conversion Rate (%)
                         </a>
                         @include('partials.sort-icons', ['sort' => 'conversion_rate', 'order' => $order_by])
