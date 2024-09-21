@@ -97,7 +97,7 @@
     </div>
 
     <div class="my-5">
-        {{ $campaigns->links() }}
+        {{ $campaigns->appends(request()->query())->links() }}
     </div>
 </div>
 @endsection
