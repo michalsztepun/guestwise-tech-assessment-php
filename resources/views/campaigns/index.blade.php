@@ -88,7 +88,7 @@
                         {{ $campaign->conversions_count }}
                     </td>
                     <td>
-                        {{ round(($campaign->conversions_count / $campaign->impressions_count) * 100, 2) }}%
+                        {{ round(($campaign->conversions_count / $campaign->interactions_count) * 100, 2) }}%
                     </td>
                 </tr>
                 @endforeach

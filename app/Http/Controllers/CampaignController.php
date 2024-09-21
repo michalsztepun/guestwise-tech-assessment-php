@@ -59,7 +59,7 @@ class  CampaignController extends Controller
             'interactions' => 'interactions_count',
             'conversions' => 'conversions_count',
             'brand' => 'brands.name',
-            'conversion_rate' => '(conversions_count / impressions_count) * 100',
+            'conversion_rate' => '(conversions_count / interactions_count) * 100',
             default => 'campaigns.name',
         };
     }
