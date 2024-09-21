@@ -31,6 +31,18 @@ class ListRequest extends FormRequest
                 'numeric',
                 'min:1'
             ],
+            'sort' => [
+                'string'
+            ],
+            'order' => [
+                'string',
+                Rule::in(['desc', 'asc'])
+            ]
         ];
+    }
+
+    protected function prepareForValidation(): void
+    {
+        if (!$this->input('brand')) $this->offsetUnset('brand');
     }
 }
